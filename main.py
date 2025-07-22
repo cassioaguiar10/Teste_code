@@ -16,7 +16,7 @@ def init_db():
     with sqlite3.connect(DB_PATH) as conn:
         cursor = conn.cursor()
         cursor.execute('''
-            CREATE TABLE IF NOT EXISTS inadinmplencia(
+            CREATE TABLE IF NOT EXISTS inadimplencia(
                 mes TEXT PRIMARY KEY,
                 inadimplencia REAL             
                 )
@@ -43,7 +43,7 @@ def index():
             <input name='campo_inadimplencia' type='file' required><br><br>     
 
            <label for='campo_selic'>Arquivo Taxa Selic</label>
-           <input type='file' required name='campo selic' required><br><br>                      
+           <input type='file' required name='campo_selic' required><br><br>                      
              <input type='submit' value='Fazer Upload'>
             </form> 
             <br><br><hr>
@@ -98,7 +98,7 @@ def upload():
 def consultar():
     #resultados se a pagina for carregada recebendo post
     if request.method == 'POST':
-        tabela = request.form.get('Campo_tablea')
+        tabela = request.form.get('campo_tablea')
         if tabela not in ['inadimplencia','selic']:
             return jsonify({'Error': 'Tabela é invalida'})
         with sqlite3.connect(DB_PATH) as conn:
