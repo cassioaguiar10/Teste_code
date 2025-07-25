@@ -1,0 +1,26 @@
+Avengers Dataframe após a limpeza
+PS C:\Users\integral\Desktop\Python 2 Cassio> & C:\Users\integral\AppData\Local\Microsoft\WindowsApps\python3.11.exe "c:/Users/integral/Desktop/Python 2 Cassio/Sistema/final_professor.py"
+Erro inesperado ao carregar os dados de avengers.csv: [Errno 2] No such file or directory: 'avengers.csv'
+Erro inesperado ao carregar os dados de drinks.csv: [Errno 2] No such file or directory: 'drinks.csv'
+
+Avengers Dataframe após a limpeza
+Erro: Avengers DataFrame não disponível
+
+Drinks Dataframe após a limpeza
+Erro: Drinks DataFrame não disponível
+Dados indisponíveis para: Vingadores
+Dados indisponíveis para: Consumo de Álcool
+Dash is running on http://127.0.0.1:8050/
+
+ * Serving Flask app 'final_professor'
+ * Debug mode: on
+Erro inesperado ao carregar os dados de avengers.csv: [Errno 2] No such file or directory: 'avengers.csv'
+Erro inesperado ao carregar os dados de drinks.csv: [Errno 2] No such file or directory: 'drinks.csv'
+
+Avengers Dataframe após a limpeza
+Erro: Avengers DataFrame não disponível
+
+Drinks Dataframe após a limpeza
+Erro: Drinks DataFrame não disponível
+Dados indisponíveis para: Vingadores
+Dados indisponíveis para: Consumo de Álcool
